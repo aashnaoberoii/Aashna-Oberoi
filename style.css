@@ -3,7 +3,7 @@ body {
     background-color: #002B15; /* Dark green background */
     color: #FF8370; /* Soft coral text color */
     font-family: Arial, sans-serif;
-    margin-top: 60px;  /* Adjust this based on your top bar's height */
+    margin-top: 3.75rem;  /* Adjust this based on your top bar's height */
     height: 100vh; /* Full viewport height */
 }
 html {
@@ -16,7 +16,7 @@ header {
     top: 0;
     left: 0;
     background-color: #002B15; /* Same as background color */
-    padding: 10px 20px;
+    padding: 0.65rem 1.25rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,7 +41,7 @@ header .logo a {
     font-family: 'Glacial Indifference', sans-serif;
     font-weight: bold;
     color: #FF8370; /* Text color */
-    font-size: 18px; /* Smaller size */
+    font-size: 1.1rem; /* Smaller size */
     text-transform: uppercase;
     margin: 0;
 }
@@ -53,7 +53,7 @@ nav {
     right: 0;
     z-index: 1000; /* Ensure it's above other content */
     
-    padding: 10px 20px; /* Your padding style */
+    padding: 0.65rem 1.25rem; /* Your padding style */
 }
 
 .nav-links {
@@ -64,14 +64,14 @@ nav {
 }
 
 .nav-links li {
-    margin-left: 20px;
+    margin: left 1.25em;
 }
 
 .nav-links li a {
     font-family: 'Glacial Indifference', sans-serif;
     font-weight: bold;
     color: #FF8370; /* Text color */
-    font-size: 18px; /* Same font size as logo */
+    font-size: 1.1rem; /* Same font size as logo */
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -94,7 +94,7 @@ main {
     justify-content: center; /* Horizontally center content */
     align-items: center; /* Vertically center content */
     height: calc(100vh - 60px); /* Full viewport height minus header height */
-    padding-top: 60px; /* Adjust padding to avoid overlap with header */
+    padding-top: 3.75rem; /* Adjust padding to avoid overlap with header */
 }
 
 .centered-title {
@@ -103,7 +103,7 @@ main {
     color: #FF8370; /* Text color */
     font-weight: normal; /* Italics are controlled by font */
     font-style: italic; /* Italics text */
-    font-size: 105px; /* Larger font size */
+    font-size: 6.5rem; /* Larger font size */
     line-height: 1; /* Minimum line spacing */
     margin: 0;
     display: inline-block;
@@ -123,9 +123,9 @@ main {
     text-transform: uppercase;
     line-height: 2; /* Increased line height */
     margin: 0 auto;
-    margin-top: 20px; /* Adjust as needed for the space above */
-    margin-bottom: 70px;
-    max-width: 1100px; /* Increased width of the paragraph */
+    margin-top: 1.25rem; /* Adjust as needed for the space above */
+    margin-bottom: 4.3rem;
+    max-width: 68.7rem; /* Increased width of the paragraph */
     font-size: 1.5rem; /* Increased text size */
     letter-spacing: 0.05rem; /* Added letter spacing for better readability */
 }
@@ -143,9 +143,9 @@ main {
     font-family: 'Glacial Indifference', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #FF8370;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     margin-left: 10px;
 }
 
@@ -160,15 +160,15 @@ main {
     color: #FF8370; /* Text color */
     font-weight: normal; /* Italics are controlled by font */
     font-style: italic; /* Italics text */
-    font-size: 65px; /* Larger font size */
+    font-size: 4rem; /* Larger font size */
     text-transform: uppercase;
     background-color: #002B15;
-    padding: 20px;
+    padding: 1.25rem;
     border-bottom: 1px solid rgba(255, 131, 112, 0.5);
     cursor: pointer;
     position: relative; /* Position for hover-info */
     overflow: hidden; /* Prevent overflow of text */
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
     box-sizing: border-box; /* Include padding in the width calculation */
     width: 100%;
 }
@@ -179,7 +179,7 @@ main {
     top: 0;
     right: 0;
     box-sizing: border-box; /* Ensure padding fits within width */
-    padding: 20px;
+    padding: 1.25rem;
     font-family: 'Glacial Indifference', sans-serif;
     font-size: 1rem;
     color: #002B15;
@@ -231,7 +231,7 @@ main {
     font-family: 'Glacial Indifference', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #FF8370;
     margin-bottom: 20px;
     margin-left: 10px;
@@ -249,7 +249,7 @@ main {
     font-family: 'LTC Badoni', serif;
     color: #FF8370;
     font-style: italic;
-    font-size: 60px;
+    font-size: 3.75rem;
     text-transform: uppercase;
     background-color: #002B15;
     padding: 10px;
@@ -261,7 +261,7 @@ main {
 
 .experience-item .year {
     font-family: 'Glacial Indifference', sans-serif;
-    font-size: 60px;
+    font-size: 3.75rem;
     font-weight: bold;
 }
 
@@ -270,11 +270,11 @@ main {
 }
 
 .company-name {
-    font-size: 55px;
+    font-size: 3.4rem;
 }
 
 .position {
-    font-size: 18px;
+    font-size: 1.1rem;
     text-transform: lowercase;
 }
 
@@ -497,97 +497,71 @@ footer.contact-footer {
         font-size: 1rem; /* Adjust font size for mobile */
     }
 }
-
-/* Tablet and iPad (portrait) */
-@media only screen and (max-width: 768px) {
-    .popup {
-        width: 80%;  /* Adjust the width of the popup */
-        padding: 20px;
-        background-color: #fff;  /* Ensure the background color remains the same */
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-        border-radius: 10px;  /* Keep rounded corners for a modern feel */
-    }
-
-    .popup-content {
-        font-size: 14px;  /* Adjust font size */
-        color: #333;  /* Ensure text color is the same */
-    }
-
-    .close-btn {
-        font-size: 20px;  /* Adjust button size */
-        padding: 10px 15px;  /* Adjust padding */
-        background-color: #f1f1f1;  /* Ensure consistent button style */
-        color: #333;  /* Ensure consistent text color */
-        border: none;  /* Remove border */
-        border-radius: 5px;  /* Rounded corners */
-        cursor: pointer;  /* Pointer cursor on hover */
-        transition: background-color 0.3s;  /* Smooth transition */
-    }
-
-    .close-btn:hover {
-        background-color: #ddd;  /* Darker button color on hover */
-    }
-
-    #backdrop {
-        background-color: rgba(0, 0, 0, 0.7); /* Darker backdrop for focus */
-    }
-}
-
-/* Mobile Phones (portrait and landscape) */
+/* Mobile Phones */
 @media only screen and (max-width: 480px) {
+
+    /* Heading - Multifaceted Designer */
+    .heading {
+        font-size: 24px;  /* Reduce font size for mobile */
+        text-align: center;  /* Center the heading */
+        margin: 20px 0;
+    }
+
+    /* What I Do and Work Experience Sections */
+    .section {
+        font-size: 14px;  /* Reduce text size */
+        padding: 10px;  /* Reduce padding */
+        cursor: pointer;  /* Indicate that these sections are clickable */
+        transition: background-color 0.3s ease;
+    }
+
+    .section:hover {
+        background-color: #f0f0f0;  /* Change background on hover */
+    }
+
+    /* Projects Section - Stack projects vertically */
+    .projects {
+        display: flex;
+        flex-direction: column;  /* Stack the projects vertically */
+        align-items: center;  /* Center the projects */
+    }
+
+    .project-item {
+        width: 90%;  /* Make projects take up 90% of the screen */
+        margin: 10px 0;  /* Space between the projects */
+    }
+
+    .project-item img {
+        width: 100%;  /* Make project images responsive */
+        height: auto;
+    }
+
+    /* Popup - Increase popup size */
     .popup {
-        width: 90%;  /* Popup takes most of the screen width */
-        padding: 15px;  /* Adjust padding */
-        background-color: #fff;  /* Consistent background color */
+        width: 80%;  /* Make popup cover 80% of the screen */
+        padding: 20px;  /* Adjust padding */
+        background-color: #fff;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-        border-radius: 10px;  /* Rounded corners */
+        border-radius: 10px;
+        position: fixed;
+        top: 10%;  /* Adjust position from the top */
+        left: 10%;  /* Center the popup horizontally */
+        z-index: 1000;
+        display: none;
+        transition: all 0.3s ease;
     }
 
     .popup-content {
-        font-size: 12px;  /* Smaller font size */
+        font-size: 14px;  /* Reduce text size inside popup */
         color: #333;  /* Consistent text color */
     }
 
+    /* Close Button */
     .close-btn {
-        font-size: 18px;  /* Smaller close button */
-        padding: 8px 12px;  /* Smaller button padding */
-        background-color: #f1f1f1;  /* Same button style */
-        color: #333;  /* Same text color */
-        border: none;
-        border-radius: 5px;  /* Rounded corners */
-        cursor: pointer;
-        transition: background-color 0.3s;
-    }
-
-    .close-btn:hover {
-        background-color: #ddd;  /* Hover effect */
-    }
-
-    #backdrop {
-        background-color: rgba(0, 0, 0, 0.8);  /* Darker backdrop for mobile */
-    }
-}
-
-/* Landscape tablets */
-@media only screen and (min-width: 481px) and (max-width: 1024px) {
-    .popup {
-        width: 70%;  /* Adjust width for landscape tablets */
-        padding: 25px;  /* Adjust padding */
-        background-color: #fff;  /* Consistent background color */
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-        border-radius: 10px;  /* Keep rounded corners */
-    }
-
-    .popup-content {
-        font-size: 16px;  /* Slightly bigger text for tablets */
-        color: #333;  /* Consistent text color */
-    }
-
-    .close-btn {
-        font-size: 22px;  /* Adjust button size */
-        padding: 12px 18px;  /* Adjust padding */
-        background-color: #f1f1f1;  /* Same button style */
-        color: #333;  /* Consistent text color */
+        font-size: 20px;
+        padding: 8px 12px;
+        background-color: #f1f1f1;
+        color: #333;
         border: none;
         border-radius: 5px;
         cursor: pointer;
@@ -595,10 +569,151 @@ footer.contact-footer {
     }
 
     .close-btn:hover {
-        background-color: #ddd;  /* Hover effect */
+        background-color: #ddd;
     }
 
+    /* Backdrop */
     #backdrop {
-        background-color: rgba(0, 0, 0, 0.7);  /* Slightly darker backdrop */
+        background-color: rgba(0, 0, 0, 0.8);  /* Darker backdrop */
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0.3s, opacity 0.3s;
+        z-index: 999; /* Make sure the backdrop is under the popup */
+    }
+}
+
+/* Tablet (Portrait and Landscape) */
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+
+    /* Heading - Multifaceted Designer */
+    .heading {
+        font-size: 28px;  /* Slightly larger font size for tablets */
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    /* What I Do and Work Experience Sections */
+    .section {
+        font-size: 16px;  /* Slightly smaller text for tablets */
+        padding: 15px;
+        cursor: pointer;
+    }
+
+    /* Projects Section - Stack projects vertically on smaller tablets */
+    .projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-item {
+        width: 80%;  /* Projects take up 80% of the screen */
+        margin: 15px 0;
+    }
+
+    /* Popup - Increase popup size for tablets */
+    .popup {
+        width: 80%;  /* Make popup cover 80% of the screen */
+        padding: 25px;
+        background-color: #fff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        position: fixed;
+        top: 10%;
+        left: 10%;
+        z-index: 1000;
+        display: none;
+    }
+
+    .popup-content {
+        font-size: 16px;  /* Slightly larger text inside popup */
+        color: #333;
+    }
+}
+@media screen and (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: 1fr; /* One column for smaller screens */
+    }
+}
+@media (max-width: 768px) {
+    /* Adjusting header and navigation */
+    header {
+        padding: 10px 15px;
+    }
+
+    .nav-links {
+        flex-direction: column; /* Stack links vertically */
+    }
+
+    .nav-links li {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    /* Adjust the centered title font size */
+    .centered-title {
+        font-size: 60px;
+    }
+
+    /* Service Item Adjustments */
+    .service-item {
+        font-size: 40px; /* Smaller font */
+        padding: 15px;
+    }
+
+    .service-item .hover-info {
+        font-size: 0.8rem; /* Smaller text */
+    }
+
+    /* Projects Grid: Single column */
+    .projects-grid {
+        grid-template-columns: 1fr; /* One column */
+    }
+
+    .project-item {
+        padding: 20px;
+    }
+
+    /* Popup Adjustments */
+    .popup-overlay {
+        width: 100%; /* Full width on small screens */
+    }
+
+    /* Work Experience Adjustments */
+    .experience-item {
+        font-size: 40px; /* Smaller text */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Even smaller font adjustments for mobile */
+    .centered-title {
+        font-size: 40px;
+    }
+
+    .service-item {
+        font-size: 30px; /* Smaller font */
+    }
+
+    .experience-item {
+        font-size: 30px; /* Smaller text */
+    }
+
+    /* Adjust grid and spacing for mobile */
+    .projects-grid {
+        gap: 5px;
+    }
+
+    .project-item {
+        padding: 15px;
+    }
+
+    .popup-overlay {
+        width: 100%; /* Ensure popup is full width */
     }
 }
